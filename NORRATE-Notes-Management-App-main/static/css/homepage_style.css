@@ -1,0 +1,94 @@
+body {
+    background-image: url(./option1.JPG);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* aligns child in centre along the horizontal axis*/
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    max-width: 700px;
+    width: 50%;
+    min-width: 200px;
+    border-radius: 11%;
+    box-shadow: 50px 20px 60px rgba(0, 0, 0, 0.9);
+}
+
+#auth{
+    width: 100%;
+    padding: 20px;
+    background: #68443c; /* #f7e673 */
+    border-radius: 11%;
+    text-align: center;
+    color:#94bbc3;
+}
+#showSignUp, #showSignin{
+    color: #94bbc3;
+    text-decoration: none;
+}
+#showLogin {
+
+}
+#register{
+    width: 100%;
+    padding: 20px;
+    background: #68443c;
+    border-radius: 11%;
+
+}
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #94bbc3;
+    border-radius: 16%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #94bbc3;
+}
+
+#notesApp{
+    padding: 20px;
+}
+
+#notesList {
+    margin-top: 20px;
+}
+
+.note {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#loginEmail, #loginPassword {
+    background-color: #89b275;
+}
+#registerEmail, #registerPassword, #registerName {
+    background-color:#89b275;
+}
+#register > p,#register > p > a{
+    color: #94bbc3;
+    text-decoration: none;
+}
+#register > h2{
+    color: #94bbc3;
+}
